@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - ../base/facebooc
 
-patches:
+patchesStrategicMerge:
 - facebooc-deploy-kustomization.yaml
