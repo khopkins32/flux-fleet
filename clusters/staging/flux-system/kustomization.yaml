@@ -4,5 +4,5 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 
-patchesStrategicMerge:
-- expose-webhook-receiver.yaml  
+patches:
+- path: expose-webhook-receiver.yaml
